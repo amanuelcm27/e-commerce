@@ -1,4 +1,10 @@
-import "./main.css";
+import "./css/main.css";
+import "./css/navigation.css"
+import './css/homepage.css'
+import "./css/cart.css"
+import "./css/details.css"
+import "./css/items.css"
+
 import HomePage from "./pages/HomePage";
 import { DetailsPage } from "./pages/DetailsPage";
 import { CartPage } from "./pages/CartPage";

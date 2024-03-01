@@ -67,14 +67,14 @@ export const CartPage = () => {
               <div className="list-item">{item.name} </div>
               <div className="list-item-price">
                 {" "}
-                ${item.price * item.quantity}
+                ${Math.round(item.price * item.quantity)}
               </div>
             </div>
           ))}
 
           <p style={{ fontSize: "1.5rem", marginTop: "50px" }}>
             {" "}
-            Total:{total}
+            Total:${total}
           </p>
           <button className="checkout">Check Out</button>
         </div>
